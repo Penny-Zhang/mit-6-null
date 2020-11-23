@@ -10,18 +10,18 @@ open terminal - a single line on the top (shell prompt).
 2) when write "echo + anything you want it to show you", it will just show the things you write after "echo".  
    ( e.g. type "echo 'Hello, world'" ; "echo Hello\ World"). 
 3) environment variable:  
-    a) echo $PATH: show the path of command on my comnputer. 
-       *absolute path: path that fully determine the locatiuon of a file*. 
-       *relative path: path that is relative to the place where you are*.
-    b) pwd: show currently location. 
-    c) cd + ...: change the currently working directory (shell prompt will show that). 
-       (cd -: go back to last directory）. 
-    d) ls (+ ...): show the files'list of current directory. 
-       (ls -l: show more details of files'list). 
-    e) mv: rename a file or replace it in another directory.     
-       (mv XX.XX YY.XX : rename file XX.XX to file YY.XX or move XX.XX into another directory）.
-    f) cp: copy.    
-    g) rm: remove.     
+    a) echo $PATH: show the path of command on my comnputer <br/>
+       *absolute path: path that fully determine the locatiuon of a file* <br/> 
+       *relative path: path that is relative to the place where you are* <br/>
+    b) pwd: show currently location <br/> 
+    c) cd + ...: change the currently working directory (shell prompt will show that) <br/>
+       (cd -: go back to last directory） <br/>
+    d) ls (+ ...): show the files'list of current directory <br/>
+       (ls -l: show more details of files'list)<br/> 
+    e) mv: rename a file or replace it in another directory<br/>     
+       (mv XX.XX YY.XX : rename file XX.XX to file YY.XX or move XX.XX into another directory<br/>
+    f) cp: copy<br/>    
+    g) rm: remove<br/>    
 4) man: manual pages. 
    (man LS = upgrade LS --help). 
 5) Q: quit. 
