@@ -63,7 +63,7 @@ curl --head --silent https://missing.csail.mit.edu)<br/>
 (serached online: “sh” takes the following file as a parameter, and “./” takes the following file as an executable program)<br/>
 8. <br/>
 `···man chmod`<br/> 
-9.
+9.<br/>
 `chmod +x semester.txt` <br/> 
 `./semester.txt`<br/>
 (my shell knows that the file is supposed to be interpreted using sh, because the file begins with "#!/bin/sh")<br/>
