@@ -11,19 +11,19 @@ open terminal - a single line on the top (shell prompt).
    ( e.g. type "echo 'Hello, world'" ; "echo Hello\ World"). 
 3) environment variable:  
     a) echo $PATH: show the path of command on my comnputer <br/>
-       *absolute path: path that fully determine the locatiuon of a file* <br/> 
-       *relative path: path that is relative to the place where you are* <br/>
+         *absolute path: path that fully determine the locatiuon of a file* <br/> 
+          *relative path: path that is relative to the place where you are* <br/>
     b) pwd: show currently location <br/> 
     c) cd + ...: change the currently working directory (shell prompt will show that) <br/>
-       (cd -: go back to last directory） <br/>
+          (cd -: go back to last directory） <br/>
     d) ls (+ ...): show the files'list of current directory <br/>
-       (ls -l: show more details of files'list)<br/>
+          (ls -l: show more details of files'list)<br/>
     e) mv: rename a file or replace it in another directory<br/> 
-       (mv XX.XX YY.XX : rename file XX.XX to file YY.XX or move XX.XX into another directory<br/>
+         (mv XX.XX YY.XX : rename file XX.XX to file YY.XX or move XX.XX into another directory<br/>
     f) cp: copy<br/>
     g) rm: remove<br/>
 4) man: manual pages. 
-   (man LS = upgrade LS --help). 
+      (man LS = upgrade LS --help). 
 5) Q: quit. 
 6) ctrl + L: clearl terminal.   
 
