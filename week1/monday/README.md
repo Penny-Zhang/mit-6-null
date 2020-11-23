@@ -46,7 +46,7 @@ open terminal - a single line on the top (shell prompt).
 2.<br/>
 `cd coding`<br/> 
 `mkdir missing`<br/> 
-3<br/>  
+3.  
 `man touch`<br/>
 4.<br/>
 `cd missing`<br/> 
@@ -63,8 +63,8 @@ curl --head --silent https://missing.csail.mit.edu)<br/>
 (serached online: “sh” takes the following file as a parameter, and “./” takes the following file as an executable program)<br/>
 8. <br/>
 `···man chmod`<br/> 
-9.<br/>  
-`chmod +x semester.txt`<br/> 
+9.
+`chmod +x semester.txt` <br/> 
 `./semester.txt`<br/>
 (my shell knows that the file is supposed to be interpreted using sh, because the file begins with "#!/bin/sh")<br/>
 10. <br/>
