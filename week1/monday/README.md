@@ -42,34 +42,34 @@ open terminal - a single line on the top (shell prompt).
 1) sudo. 
 
 ## exercise
-1.pass. 
-2.  
-`cd coding` <br>
-`mkdir missing` <br>
-3.
-`man touch <br>`
-4.  
-`cd missing <br>`
-`touch semester.txt <br>`
-5.  
-`open semester.txt <br>
-(then copy: <br>
-#!/bin/sh <br>
-curl --head --silent https://missing.csail.mit.edu) <br>`
-6.    
-`./semester.txt. -- permission denied <br>`
-7.  
-`sh semester.txt -- show up <br>`
-(serached online: “sh” takes the following file as a parameter, and “./” takes the following file as an executable program）<br>
-8.  
-`···man chmod <br>`
-9.  
-`chmod +x semester.txt <br>`
-`./semester.txt <br>`
+1.pass. \<br>
+2.\<br>
+`cd coding`\<br>
+`mkdir missing` \<br>
+3.\<br>
+`man touch`\<br>
+4.\<br>
+`cd missing`\<br>
+`touch semester.txt`\<br>
+5.\<br>
+`open semester.txt`\<br>
+(then copy: \<br>
+#!/bin/sh \<br>
+curl --head --silent https://missing.csail.mit.edu) \<br>
+6.\<br> 
+`./semester.txt. -- permission denied`\<br>
+7.\<br>
+`sh semester.txt -- show up`\<br>
+(serached online: “sh” takes the following file as a parameter, and “./” takes the following file as an executable program）\<br>
+8.\<br>
+`···man chmod`\<br>
+9.\<br>
+`chmod +x semester.txt`\<br>
+`./semester.txt`\<br>
 (my shell knows that the file is supposed to be interpreted using sh, because the file begins with "#!/bin/sh")
-10.  
-`touch last-modified.txt`
-`ls -l | grep semester > last-modified.txt`
+10.\<br> 
+`touch last-modified.txt`\<br>
+`ls -l | grep semester > last-modified.txt`\<br>
 
 
 
