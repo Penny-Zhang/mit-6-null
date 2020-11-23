@@ -44,8 +44,8 @@ open terminal - a single line on the top (shell prompt).
 ## exercise
 1.pass. 
 2.  
-`cd coding <br>`
-`mkdir missing <br>`
+`cd coding` <br>
+`mkdir missing` <br>
 3.
 `man touch <br>`
 4.  
