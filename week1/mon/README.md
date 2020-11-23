@@ -6,12 +6,12 @@ open terminal - a single line on the top (shell prompt).
 ![Image of terminal page](https://github.com/Penny-Zhang/images/blob/main/terminal.png). 
 
 **basic and convenient use:**
-1) it can show date and specific time when you enter "date" on it. 
-2) when write "echo + anything you want it to show you", it will just show the things you write after "echo".  
-   ( e.g. type "echo 'Hello, world'" ; "echo Hello\ World"). 
-3) environment variable:  
+1) it can show date and specific time when you enter "date" on it<br/>
+2) when write "echo + anything you want it to show you", it will just show the things you write after "echo"<br/>
+    ( e.g. type "echo 'Hello, world'" ; "echo Hello\ World")<br/>
+3) environment variable:<br/>
     a) echo $PATH: show the path of command on my comnputer <br/>
-         *absolute path: path that fully determine the locatiuon of a file* <br/> 
+          *absolute path: path that fully determine the locatiuon of a file* <br/> 
           *relative path: path that is relative to the place where you are* <br/>
     b) pwd: show currently location <br/> 
     c) cd + ...: change the currently working directory (shell prompt will show that) <br/>
@@ -27,16 +27,16 @@ open terminal - a single line on the top (shell prompt).
 5) Q: quit. 
 6) ctrl + L: clearl terminal.   
 
-**different input & output forms by terminal**. 
-1) echo hello: it will show "hello" on the terminal. 
-   echo hello > hello.txt: there will be nothing happenning on the terminal, since  "hello" was written in a txt.  
-2) cat: print the context of the file on the terminal. 
-   (e.g. cat < hello.txt: it will show "hello" on the terminal). 
-   (e.g. cat < hello.txt > hello2.txt: write the consequence of command "cat < hello.txt" into hello2.txt). 
-   (e.g. cat < hello.txt >> hello2.txt: it will show "hello" twice on the terminal). 
-*content-length: show the length*. 
-3) "|": chain programs- the former output is the input of the next file. 
-   (e.g. curl --head --silent google.com | grep --ignore-case content-length | cut --delimiter=' ' -f2). 
+**different input & output forms by terminal** <br/>
+1) echo hello: it will show "hello" on the terminal<br/>
+   echo hello > hello.txt: there will be nothing happenning on the terminal, since  "hello" was written in a txt <br/>
+2) cat: print the context of the file on the terminal<br/>
+   (e.g. cat < hello.txt: it will show "hello" on the terminal)<br/>
+   (e.g. cat < hello.txt > hello2.txt: write the consequence of command "cat < hello.txt" into hello2.txt)<br/> 
+   (e.g. cat < hello.txt >> hello2.txt: it will show "hello" twice on the terminal)<br/>
+      *content-length: show the length*<br/>
+3) "|": chain programs- the former output is the input of the next file<br/>
+   (e.g. curl --head --silent google.com | grep --ignore-case content-length | cut --delimiter=' ' -f2)<br/>
 
 **rooter user**
 1) sudo. 
