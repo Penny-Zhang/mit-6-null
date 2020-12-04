@@ -1,5 +1,4 @@
 **python Recursive algorithm** <br/>
-
 Hanoi：<br/>
 A(64 big-small), B，C<br/>
 A-C-B(63)<br/>
@@ -7,7 +6,7 @@ A-B-C(1)<br/>
 B(63 big-small), A, C(1)<br/>
 ...<br/>
 
-'def printMove (x, y):<br/>'
+'''def printMove (x, y):<br/>
     print('move from ' + str(x) +  ' to '  + str(y))<br/>
 
 def Towers(n, one, two, three):<br/>
@@ -19,7 +18,7 @@ def Towers(n, one, two, three):<br/>
        Towers(n-1, two, one, three)<br/>
 
 print(Towers(3, 'A', 'B', 'C'))<br/>
-''
+'''
 
 **Write a function to find roots**<br/>
 '
