@@ -6,7 +6,7 @@ A-B-C(1)<br/>
 B(63 big-small), A, C(1)<br/>
 ...<br/>
 
-'''
+```
 def printMove (x, y):<br/>
     print('move from ' + str(x) +  ' to '  + str(y))<br/>
 
@@ -19,10 +19,10 @@ def Towers(n, one, two, three):<br/>
        Towers(n-1, two, one, three)<br/>
 
 print(Towers(3, 'A', 'B', 'C'))<br/>
-'''
+```
 
 **Write a function to find roots**<br/>
-'
+```
 def findRoot(x, power, epsilon):<br/>
     '''x and epsilon int or float, power an int<br/>
     epsilon >0 & power>=1<br/>
@@ -40,21 +40,22 @@ def findRoot(x, power, epsilon):<br/>
            high = ans<br/>
        ans = (high+low)/2.0<br/>
     return(ans)<br/>
-'
+```
+
 **Use of keywords**<br/>
-‘
+```
 def shop(where='store',what='pasta', howmuch='10 pounds'):<br/>
     print('I want you to go to the', where)<br/>
     print('and buy', howmuch,'of',what+'.')<br/>
 
 shop()<br/>
 shop(what='towels')<br/>
-’
+```
 
 **Lambda**<br/>
 Lambda function is used to create an anonymous function, the function name is not bound to the identifier.<br/>
 Use lambda functions to return some simple calculation results<br/>
-‘
+```
 def func():<br/>
     x=1<br/>
     y=2<br/>
@@ -67,10 +68,10 @@ def func():<br/>
     return sum(x,y)+sub(m,n)<br/>
 
 print(func())<br/>
-’
+```
 tip：<br/>
 Use lambda to find absolute value<br/>
-‘
+```
 print((lambda x:-x)(-2))
-'
+```
 
