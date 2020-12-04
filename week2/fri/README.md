@@ -6,8 +6,8 @@ A-C-B(63)<br/>
 A-B-C(1)<br/>
 B(63 big-small), A, C(1)<br/>
 ...<br/>
-''
-def printMove (x, y):<br/>
+
+'def printMove (x, y):<br/>'
     print('move from ' + str(x) +  ' to '  + str(y))<br/>
 
 def Towers(n, one, two, three):<br/>
